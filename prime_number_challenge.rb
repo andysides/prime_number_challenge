@@ -77,7 +77,7 @@ end
 
 # Setup Matrix tests
 class MatrixTest < MiniTest::Test
-  def test_get_row
+  def test_matrix
     matrix = Matrix.new([2, 3]).matrix
 
     assert_equal(['', 2, 3], matrix[0])
