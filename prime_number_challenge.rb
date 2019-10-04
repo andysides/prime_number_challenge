@@ -107,6 +107,8 @@ if MiniTest.run
 
   primes = PrimeGenerator.primes(count)
   matrix = Matrix.new(primes)
+
+  puts "Multiplication table for the first #{primes.count} primary numbers:"
   matrix.print_matrix
 else
   puts 'Tests failed! :('
